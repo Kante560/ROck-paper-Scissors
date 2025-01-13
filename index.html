@@ -54,8 +54,8 @@
               result = '';
             console.log(AIMove);
             if (AIMove === 'paper'){
-                result = ' you won congrats' } else if (AIMove ==='paper'){
-                  result = 'its a TIE ..AI de press ur neck for small game'
+                result = ' its a TIE ..AI de press ur neck for small game' } else if (AIMove ==='rock'){
+                  result = 'you won congrats'
                   } else if ( AIMove === 'scissors') {
                       result = 'you lost to an AI imagine.. werey'
                   }
@@ -82,9 +82,9 @@
             console.log(AIMove);
             if (AIMove === 'scissors'){
                 result = 'its a TIE ..AI de press ur neck for small game ' } else if (AIMove ==='paper'){
-                  result = 'you lost to an AI imagine.. werey'
+                  result = 'you won congrats'
                   } else if ( AIMove === 'scissors') {
-                      result = 'you won congrats'
+                      result = 'you lost to an AI imagine.. werey'
                   }
                   document.getElementById('popup').innerText = `you picked scissors computer picked ${AIMove}. ${result}`
   "
