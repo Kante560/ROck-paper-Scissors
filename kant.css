@@ -1,0 +1,77 @@
+#firstbut{
+   height: 110px;
+   width: 110px;
+   background-color: black;
+   color: white;
+   border-radius: 50%;
+   font-size: 20px;
+}
+#secondbut{
+  height: 110px;
+  width: 110px;
+  background-color: black;
+   color: white;
+  border-radius: 50%;
+  font-size: 20px;
+}
+#thirdbut{
+  height: 110px;
+   width: 110px;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   border-radius: 50%;
+}
+.tit{
+  font-family: monospace;
+  height: 50px;
+  width: 350px;
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+
+
+}
+#bae{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  column-gap: 5px;
+
+}
+#popup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  width: 200px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* transform: rotate(0,360deg);
+  transition: 3s; */
+  
+
+}
+#body{
+  background-color: white;
+}
+#popcont{
+  display: flex;
+
+}
+/* .des1{
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient( 180,green,black);
+} */
+ .circles{
+  display: flex;
+ }
