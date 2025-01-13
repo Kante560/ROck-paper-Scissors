@@ -44,14 +44,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 180px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   text-align: center;
   background-color: black;
   color: white;
   padding-left: 10px;
   padding-right: 10px;
-  font-weight: 700;
+  font-weight: 800;
   border-radius: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   /* transform: rotate(0,360deg);
